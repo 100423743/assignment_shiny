@@ -61,7 +61,7 @@ ui <- navbarPage("Shiny app",
                                         mainPanel(
                                             tabsetPanel(type = "tabs",
                                                         tabPanel("Calculator", textOutput("Calculator")),
-                                                        tabPanel("Linear Model", verbatimTextOutput("Summary")),
+                                                        tabPanel("Linear Model summary", verbatimTextOutput("Summary")),
                                                         tabPanel("Table", tableOutput("Table"))
                                             )
                                         ))
